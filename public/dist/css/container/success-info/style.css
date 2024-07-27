@@ -1,0 +1,22 @@
+.user-create {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  padding: 40px;
+}
+
+.user-create-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: blue;
+}
+
+a {
+  padding: 8px;
+  border: 1px solid #8c80c0;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

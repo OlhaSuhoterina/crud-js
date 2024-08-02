@@ -1,0 +1,53 @@
+@use './../../lib/servise.scss' as s;
+
+@use '../../component/product-card/style.scss' as product-card;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: s.space(6);
+    padding: s.space(6);   
+
+
+    &-title{
+        font-size: s.space(7);
+        font-weight: 600;    
+        color: s.color("main");
+        padding: 20px;
+    }
+
+    &-product-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: s.space(6);   
+        justify-content: center;
+       
+    }
+    &-product-list-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: s.space(6); 
+
+    }
+}
+
+.link-product{
+ 
+    padding: s.space(2);
+    border: 1px solid #8c80c0;
+    border-radius: 10px;   
+    text-decoration: none;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: s.space(10);
+
+
+}
+

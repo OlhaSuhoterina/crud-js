@@ -1,0 +1,23 @@
+.produrt-create {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  padding: 40px;
+}
+
+.produrt-create-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: blue;
+}
+
+.link-product {
+  padding: 8px;
+  border: 1px solid #8c80c0;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

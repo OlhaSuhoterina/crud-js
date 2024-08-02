@@ -1,0 +1,59 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+<main>
+
+  <div class="form">
+    <h1 class="form-title">Редагування товару</h1>
+    <form method="post" action="/product-edit">
+      <div class="form-content">
+        <h2 class="form-content-title"> Інформація про товар</h2>
+        <div class="form-content-name_price row">
+          <div class="form-content-field col-4">
+            <label for="name" class="form-label">Назва товару:</label>
+            <input type="name" class="form-input" name="name" value="{{data.name}}">
+          </div>
+          <div class="form-content-field col-4">
+            <label for="price" class="form-label">Ціна:</label>
+            <input type="price" class="form-input" name="price" value="{{data.price}}">
+          </div>
+          <div class="form-content-field col-3">
+            <label for="id" class="form-label">ID:</label>
+            <input type="id" class="form-input" name="id" value="{{data.id}}">
+          </div>
+        </div>
+        <div class="form-content-description">
+
+          <div class="form-content-field">
+            <label for="description" class="form-label col-12">Короткий опис товару:</label>
+            <p></p>
+            <input type="description" class="form-input-description col-12" name="description"
+              value="{{data.description}}">
+            </input>
+
+          </div>
+        </div>
+        <div class="product-button ">
+          <button class="form-button btn btn-primary col-6">Зберегти оновлення</button>
+          <a href="/product-delete?id={{data.id}}" class="btn btn-danger col-6">Видалити товар</a>
+
+
+        </div>
+
+
+      </div>
+    </form>
+  </div>
+
+
+
+</main>
+
+
+{{!
+Цей код містить лише те, що буде виводитись в
+
+<body>
+  Адже наш layout/default.hbs має вже структуру HTML
+  }}

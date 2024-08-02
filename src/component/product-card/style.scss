@@ -1,0 +1,59 @@
+@use './../../lib/servise.scss' as s;
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  s.color("main");
+    padding: s.space(4);
+    border-radius: s.space(2);
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+    &-body-info{
+        display: flex;
+        flex-direction: column;
+        gap: s.space(4);
+    }
+
+    &-title-info{
+        font-size: s.space(5);
+        font-weight: 600;
+    }
+
+    &-discription{
+        font-size: s.space(4);
+        line-height: s.space(5);
+        // height:s.space(20);
+        font-weight: 500;
+        margin: 0;
+    }
+
+    &-id{
+        font-size: s.space(3);
+        color: gray;
+    }
+
+    &-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &-price{
+        font-size: s.space(4);
+        font-weight: 600;
+    }
+
+    &-edit{
+        font-size: s.space(4);
+        font-weight: 600;
+        color:s.color("main") ;
+        
+    }
+
+}
+
+

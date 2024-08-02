@@ -1,0 +1,27 @@
+@use './../../lib/servise.scss' as s;
+
+.produrt-create{
+    display: flex;
+    flex-direction: column;
+    gap: s.space(3);
+    align-items: center;
+    padding: s.space(10);   
+
+}
+
+.produrt-create-title{
+    font-size: s.space(6);
+    font-weight: 600;    
+    color: s.color("main");
+}
+
+
+
+.link-product{
+
+  padding: s.space(2);
+    border: 1px solid #8c80c0;
+    border-radius: 10px;   
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,67 +1,67 @@
 @use './../../lib/servise.scss' as s;
 
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: s.space(6);
-    padding: s.space(6);
+// .form {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: s.space(6);
+//     padding: s.space(6);
     
     
 
 
-    &-title{
-        font-size: s.space(6);
-        font-weight: 600;    
-        color: s.color("main");
-    }
-}
+//     &-title{
+//         font-size: s.space(6);
+//         font-weight: 600;    
+//         color: s.color("main");
+//     }
+// }
 
-.form-content{
-    display: flex;
-    flex-direction: column;
-    gap:s.space(5) ;
-    font-size: s.space(5);
-    padding: 20px;
-    border: 1px solid #8c80c0;
-    border-radius: 10px; 
-    width: s.space(100);
+// .form-content{
+//     display: flex;
+//     flex-direction: column;
+//     gap:s.space(5) ;
+//     font-size: s.space(5);
+//     padding: 20px;
+//     border: 1px solid #8c80c0;
+//     border-radius: 10px; 
+//     width: s.space(100);
     
-}
-.form-content-field{
-    display: flex;
-    flex-direction: column;
-    gap: s.space(1);
-}
-.form-label{
-    font-size: s.space(4);
-    color: s.color("second")
+// }
+// .form-content-field{
+//     display: flex;
+//     flex-direction: column;
+//     gap: s.space(1);
+// }
+// .form-label{
+//     font-size: s.space(4);
+//     color: s.color("second")
    
-}
-.form-input{
-    border: 1px solid  s.color("main");
-    border-radius: 5px;
-    font-size: s.space(3);
-    padding: s.space(1);
-}
+// }
+// .form-input{
+//     border: 1px solid  s.color("main");
+//     border-radius: 5px;
+//     font-size: s.space(3);
+//     padding: s.space(1);
+// }
 
-.form-button{
-    border: 1px solid  s.color("main");
-    border-radius: 5px;
-    font-size: s.space(4);
-    padding: s.space(1);
-    color: s.color("main");
-}
+// .form-button{
+//     border: 1px solid  s.color("main");
+//     border-radius: 5px;
+//     font-size: s.space(4);
+//     padding: s.space(1);
+//     color: s.color("main");
+// }
 
-main{
-    display: flex;
-    flex-direction: column;
-    gap: s.space(10);
+// main{
+//     display: flex;
+//     flex-direction: column;
+//     gap: s.space(10);
 
-}
+// }
 
-li{
-    padding-bottom: 10px;
-    font-size: s.space(4);
-    color: s.color("second");
-}
+// li{
+//     padding-bottom: 10px;
+//     font-size: s.space(4);
+//     color: s.color("second");
+// }

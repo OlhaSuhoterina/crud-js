@@ -1,7 +1,10 @@
 $colorMap: (
     main: blue,
     second: red,
-    light: white
+    light: white,
+    mainSecond: #0D6EFD,
+    grey: grey,
+    dark: rgba(0, 0, 0, 1)
 );
 
 @function color ($key) {

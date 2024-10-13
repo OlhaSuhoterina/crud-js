@@ -1,0 +1,93 @@
+@use './../../lib/servise.scss' as s;
+
+@use '../../component/heading/style.scss' as heading;
+@use '../../component/purchase-divider/style.scss' as divider;
+@use '../../component/field/style.scss' as field;
+@use '../../component/purchase-card/style.scss' as purchaseCard;
+@use '../../component/button/style.scss' as button;
+
+
+.main{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: s.space(10);
+   
+    
+}
+.form-card{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap:s.space(3);
+    padding: s.space(5);
+    border: 1px solid s.color('mainSecond');
+    border-radius: 10px;
+}
+
+.purchase-info{
+    display: flex;
+    flex-direction: column;
+    gap:s.space(3);
+    
+
+    &-id{
+        display: flex;
+        flex-direction: column;
+        gap:s.space(2);
+    }
+
+    &-item{
+        display: flex;  
+        flex-direction: column;
+        gap:s.space(4);
+
+        &-person{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            
+            &-info{
+                display: flex;
+                flex-direction: column;
+                gap:s.space(2);
+            }
+        }
+    }
+
+    &-description{
+        display: flex;  
+        flex-direction: column;
+        gap:s.space(4);
+
+        &-info{
+            display: flex;
+            flex-direction: column;
+            gap:s.space(2);
+        }
+    }
+}
+
+.strong{
+    font-size: s.space(4);
+}
+
+.purchase-button{
+    background-color: s.color("mainSecond");
+    color: white;
+    text-decoration: none;
+    border: none;
+    
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+
+    &:hover{
+        opacity: 0.7;
+    }
+}

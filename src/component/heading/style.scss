@@ -1,0 +1,21 @@
+@use './../../lib/servise.scss' as s;
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &-title{
+        font-size: s.space(10);
+        color: s.color('mainSecond');
+    }
+    &-info{
+        font-size: s.space(6);
+        color: s.color('mainSecond');
+    }
+}
+
+
+
+
+

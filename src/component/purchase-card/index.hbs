@@ -1,0 +1,15 @@
+
+
+
+
+{{#with data}}
+<div class="purchase-card">
+    <img src="{{img}}" alt="{{title}}" class="purchase-card-image">
+    <h2 class="purchase-card-title">{{title}}</h2>
+    <p class="purchase-card-subtitle">{{description}}</p>
+    {{#each category}}
+        <span class="purchase-card-category purchase-card-category--{{id}}">{{text}}</span>
+    {{/each}}
+    <a href="/purchase-product?id={{id}}" class="purchase-card-button">Купити зараз: {{price}} грн</a>
+</div>
+{{/with}}

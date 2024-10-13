@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purchase-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #8c80c0;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 40px;
+  width: 800px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.purchase-card-header {
+  display: flex;
+  flex-direction: column;
+}
+.purchase-card-header-title {
+  font-size: 20px;
+}
+.purchase-card-header-subtitle {
+  font-size: 16px;
+}
+.purchase-card-button {
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  border: 1px solid #0D6EFD;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 4px;
+  color: white;
+  background-color: #0D6EFD;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

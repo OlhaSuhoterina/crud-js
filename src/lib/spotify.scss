@@ -1,0 +1,89 @@
+@use './servise.scss' as s;
+
+
+.main{
+    background-color: s.color('dark');
+    height: 250%;
+    color: s.color('light');
+
+    display: flex;
+    justify-content: center;
+    padding: s.space(6) s.space(2);
+}
+
+.main-content{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: s.space(8);
+   
+}
+
+
+.title{
+    font-size: 24px;
+}
+
+.title-center{
+    text-align: center;
+}
+
+.track{
+    display: grid;
+    grid-template-columns: 92px 1fr 42px;
+    gap: s.space(7);
+    align-items: center;
+}
+.track-list{
+    display: grid;
+    gap: s.space(7);
+
+}
+
+.track-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: s.space(2)
+}
+.track-name{
+    font-size: s.space(6);
+    color: s.color('light');
+}
+
+.header-choose{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.playlist{
+    display: grid;
+    
+    gap: s.space(2);
+    align-items: center;
+
+    &-list{
+        display: grid;
+        grid-template-columns: 0.2fr 1fr;
+        gap: s.space(5);
+        align-items: center;
+    }
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: s.space(2); 
+    }
+
+    &-name{
+        font-size: s.space(6);
+        color: s.color('light');
+    }
+
+    &-amount{
+        font-size: s.space(4);
+        color: s.color(grey);
+    }
+}

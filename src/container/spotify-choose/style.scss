@@ -1,0 +1,23 @@
+@use './../../lib/servise.scss' as s;
+
+@use './../../lib/spotify.scss' as spotify;
+
+
+
+.spotify-choose {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.6s;
+
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+
+
+li{
+    display: flex;
+    flex-direction: row;
+    gap: s.space(8);
+}

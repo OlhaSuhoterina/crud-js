@@ -1,0 +1,54 @@
+@use './../../lib/servise.scss' as s;
+
+@use './../../lib/spotify.scss' as spotify;
+
+
+.header-list{
+    display: grid;
+    grid-template-columns: 4fr 0.5fr 0.5fr;
+    align-items: center;
+    padding-left: s.space(5);
+}
+strong{
+    text-align: center;
+    padding: s.space(10);
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: s.space(10);
+    background-color: s.color(grey);
+    border-radius: 5px;
+    
+    
+}
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+.card-name{
+    color: s.color('light');
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-tracks{
+    color: rgba(189, 189, 189, 1);
+    font-size: 16px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.card-button{
+    text-decoration: none;
+}
